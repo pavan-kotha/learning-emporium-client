@@ -17,8 +17,8 @@ React (Front end framework), Webpack (Compiles TypeScript), Vercel (hosting & de
 
 #### RUN THE APPLICATION
 
-1. Run "npm run build" to create a build for the project
-2. Download live server VSCode extension, in HTML folder, right click index.html then open with live server
+1. Run "npm run dev" to start development mode or run "npm run build" to create a production build
+2. Download live server VSCode extension then in HTML folder, right click index.html and open with live server
 
 ### -- Development & Production Life Cycle --
 
