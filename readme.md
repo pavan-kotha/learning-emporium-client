@@ -33,6 +33,7 @@ React (Front end framework), Webpack (Compiles JavaScript & TypeScript), Vercel 
 #### DEVELOPMENT
 
 - Run "npm run dev" in a new terminal, this will run webpack in development mode and your changes will be re-built upon every save
+- New components will be created in ./src/components folder and new pages are in ./src/pages, you should NOT be developing anything in ./src/webpack-render
 - Webpack compiles the JavaScript and TypeScript in our react code into a static javaScript file that an HTML page can take as a script
 - Webpack is configured to compile to a folder called dist
 - Before you push your changes, make sure to run prettier to format all you code, You can install prettier as a VS Code extension : https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code
