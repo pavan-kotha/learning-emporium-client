@@ -1,7 +1,7 @@
 import * as React from "react";
-import Home from ".././pages/HomePage";
+import TutorTutorials from "../pages/TutorTutorials";
 import { createRoot } from "react-dom/client";
 
 const root = document.getElementById("root");
 
-createRoot(root).render(<Home />);
+createRoot(root).render(<TutorTutorials />);

@@ -1,9 +1,23 @@
 const path = require("path");
+const fs = require("fs");
+
+function getEntryPoints(directory) {
+  const entries = {};
+  const files = fs.readdirSync(directory);
+  files.forEach((file) => {
+    const filePath = path.join(directory, file);
+    let fileName = file.split(".")[0];
+    try {
+      entries[fileName] = "./" + filePath;
+    } catch (e) {
+      console.log(e);
+    }
+  });
+  return entries;
+}
 
 module.exports = {
-  entry: {
-    index: "./src/webpack-render/index.tsx",
-  },
+  entry: getEntryPoints("./src/webpack-render"),
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "../dist"),

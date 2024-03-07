@@ -1,13 +1,13 @@
 import * as React from "react";
 import TestComponent from "../components/TestComponent";
 
-const HomePage = () => {
+const Home = () => {
   return (
     <>
-      <div>hi</div>
+      <div>This is the home page</div>
       <TestComponent/>
     </>
   );
 };
 
-export default HomePage;
+export default Home;
