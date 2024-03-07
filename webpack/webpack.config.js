@@ -1,15 +1,15 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   entry: {
-    index:'./src/webpack-render/index.tsx',
+    index: "./src/webpack-render/index.tsx",
   },
   output: {
-    filename:'[name].js',
-    path: path.resolve(__dirname,'dist')
+    filename: "[name].js",
+    path: path.resolve(__dirname, "../dist"),
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js', '.json'],
+    extensions: [".tsx", ".ts", ".js", ".json"],
   },
   module: {
     rules: [
@@ -17,16 +17,16 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'ts-loader',
+          loader: "ts-loader",
         },
       },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
+            presets: ["@babel/preset-env", "@babel/preset-react"],
           },
         },
       },
