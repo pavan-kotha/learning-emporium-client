@@ -7,7 +7,7 @@
 
 ### -- Stack -- 
 
-React (Front end framework), Webpack (Compiles TypeScript), Vercel (hosting & deployment)
+React (Front end framework), Webpack (Compiles JavaScript & TypeScript), Vercel (hosting & deployment)
 
 ### -- Getting started -- 
 
