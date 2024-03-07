@@ -25,7 +25,7 @@ React (Front end framework), Webpack (Compiles JavaScript & TypeScript), Vercel 
 #### TASK ASSIGNMENT & COMPLETION
 
 - For issues and completing tasks, we will use GitHub issues, branches, and pull requests
-- A list of issues will be created and if you see an issue you feel comfortable doing, assign yourself and create a branch in that issue 
+- A list of issues will be created and if you see an issue you feel comfortable doing, assign yourself, create a branch in that issue with your name at the beginning for example (phat-2-create-navbar) 
 - After completing your task and pushing your changes in the branch you made, make a pull request to main and assign someone else to review your changes
 - GitHub will have automatically check for merge conflicts and Vercel will give us a deployment preview for that branch
 - After the pull request reviewer (Leighton or Phat) reviews the changes and tests changes in deployment preview and all is good, pull request reviewer can merge the changes to main
